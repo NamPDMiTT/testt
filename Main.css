@@ -1,0 +1,573 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Manrope', sans-serif;
+}
+
+#layout {
+    width: 1200px;
+    min-height: 500px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
+
+/*----- Header -----*/
+
+header {
+    background-image: url(img/Banner.jpg);
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%;
+}
+
+
+/*----- Menu -----*/
+
+nav {
+    line-height: 40px;
+    text-align: center;
+    color: lightgreen;
+    font-variant: small-caps;
+    font-weight: 700;
+}
+
+
+/*----- Vị trí trang -----*/
+
+ul.breadcrumb {
+    width: 100%;
+    margin-left: 20px;
+    padding: 10 16px;
+    list-style: none;
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 14px;
+}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: green;
+    content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+    font-weight: 1000;
+    color: rgb(41, 233, 41);
+    text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+
+/*----- Footer -----*/
+
+footer {
+    width: 100%;
+    height: 250px;
+    clear: both;
+    background-size: 100% 100%;
+    background-color: lightgreen;
+    margin-top: 150px;
+    display: flex;
+}
+
+.page {
+    width: 400px;
+    height: 250px;
+}
+
+.logo {
+    background-image: url(img/LOGO.png);
+    width: 250px;
+    height: 250px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 75px;
+}
+
+.diachi {
+    width: 450px;
+    height: 250px;
+}
+
+.intu {
+    min-width: 460px;
+    max-width: 460px;
+    margin: 10px 0 10px 0;
+    background-color: whitesmoke;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.in4 {
+    min-width: 462px;
+    max-width: 462px;
+    min-height: 50px;
+    max-height: 50px;
+    background-color: whitesmoke;
+    border-radius: 6px;
+    z-index: 2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.Send {
+    float: right;
+    margin-top: 5px;
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 6px;
+    width: 50px;
+    transition: 0.7s;
+}
+
+.Send:hover {
+    transform: scale(0.9);
+    background-color: lightgreen;
+}
+
+
+/*-----Menu trên-----*/
+
+.login li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.login li a:hover {
+    color: rgb(238, 101, 101);
+    text-decoration: underline;
+}
+
+.mntren {
+    width: 10%;
+    float: left;
+}
+
+.login {
+    padding: 10px 15px 10px 30px;
+    margin: 0;
+    background: lightgreen;
+    width: 390px;
+    float: left;
+    border-bottom-right-radius: 40px;
+    box-shadow: 0 0 15px gray;
+}
+
+.login li {
+    display: inline-block;
+}
+
+
+/*----- Menu chính -----*/
+
+.menu {
+    background-color: rgb(238, 101, 101);
+    width: 1200px;
+    height: 40px;
+}
+
+.list-menu {
+    position: relative;
+    display: flex;
+    margin: 0;
+    width: 1200px;
+    height: 40px;
+}
+
+.list-menu li {
+    margin-right: 30px;
+    list-style: none;
+    position: relative;
+}
+
+.list-menu li a {
+    text-decoration: none;
+}
+
+.list-menu li:not(:last-child):hover {
+    background-color: lightgreen;
+}
+
+.list-menu li:first-child {
+    margin-left: 0;
+}
+
+.list-menu li a {
+    color: green;
+    line-height: 40px;
+}
+
+.list-menu li a:hover {
+    color: whitesmoke;
+    line-height: 40px;
+}
+
+.search {
+    width: 15px;
+    height: 15px;
+    background-image: url(img/Icon.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: none;
+    position: absolute;
+    right: 20px;
+    bottom: 11px;
+}
+
+.find {
+    border-radius: 10px;
+    padding: 1px 0px 1px 6px;
+}
+
+.tracuu {
+    width: 190px;
+    position: relative;
+}
+
+.list-menu li:last-child {
+    margin-left: 40%;
+}
+
+
+/*----- Trang chủ -----*/
+
+.top {
+    width: 1200px;
+    height: 370px;
+    display: flex;
+}
+
+.left,
+.right {
+    width: 375px;
+    height: 370px;
+}
+
+.list-left li {
+    list-style: none;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.list-left li img {
+    width: 25px;
+    height: 25px;
+}
+
+.list-left li a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.list-left li a:hover {
+    color: lightgreen;
+}
+
+.video {
+    width: 200px;
+    height: auto;
+}
+
+.center {
+    width: 450px;
+    height: 360px;
+    margin-top: 20px;
+}
+
+.center img {
+    width: 450px;
+    height: 300px;
+}
+
+.club {
+    text-align: center;
+}
+
+.club a {
+    color: black;
+    text-decoration: none;
+}
+
+.club a:hover {
+    color: lightgreen;
+}
+
+.right {
+    overflow-y: auto;
+}
+
+.list-right li {
+    list-style: none;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.list-right li img {
+    width: 80px;
+    height: 80px;
+}
+
+.list-right li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.list-right li a:hover {
+    color: lightgreen;
+}
+
+.mid {
+    width: 1200px;
+    height: 200px;
+    background-image: url(img/Mid.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.bottom {
+    width: 1200px;
+    height: 600px;
+}
+
+.t-left {
+    max-width: 700px;
+    height: 500px;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-bottom: 200px;
+    font-weight: 700;
+    float: left;
+}
+
+.t-left p {
+    text-align: justify;
+}
+
+.t-right {
+    width: 300px;
+    height: 250px;
+    margin-right: 50px;
+    float: right;
+}
+
+.video-yt {
+    width: 300px;
+    height: 250px;
+    margin-top: 25px;
+}
+
+.picture-teacher {
+    width: 300px;
+    height: 250px;
+    margin-top: 50px;
+    background-image: url(img/anhthayco.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+/*----- Giới thiệu -----*/
+
+.sdtc,
+.tv {
+    text-align: center;
+    font-size: 40px;
+}
+
+h2:hover {
+    color: lightgreen;
+}
+
+.sodo-img {
+    width: 1200px;
+    height: 600px;
+    background-image: url(img/Sodotochuc.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.thuvien-img {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+}
+
+.title-thuvien {
+    width: 500px;
+    height: 500px;
+    margin-left: 50px;
+    margin-right: 100px;
+    font-weight: 700;
+    float: left;
+}
+
+.Fb {
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+.Fb:hover {
+    color: lightgreen;
+    text-decoration: underline;
+}
+
+.img-tv {
+    background-image: url(img/Thuvien.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    float: right;
+    transition: 0.9s;
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -ms-transition: 0.8s;
+    -o-transition: 0.8s;
+}
+
+.img-tv:hover {
+    opacity: 0.9;
+    background-image: url(img/Thuvienhover.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+/*----- Liên hệ -----*/
+
+.bando {
+    width: 700px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.lienhe {
+    width: 700px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.infor {
+    width: 700px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.Ghichu {
+    max-width: 700px;
+    min-width: 700px;
+    min-height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    display: block;
+}
+
+.send {
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: lightgreen;
+    padding: 5px;
+    border-radius: 6px;
+    width: 50px;
+    transition: 0.7s;
+}
+
+.send:hover {
+    transform: scale(0.9);
+}
+
+
+/*----- Góp ý -----*/
+
+.gop-y {
+    width: 1200px;
+    height: 600px;
+    margin: 0 10px 0 10px;
+    display: flex;
+}
+
+.picture {
+    background-image: url(img/HBNY.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 650px;
+    margin-left: 15px;
+}
+
+.titlegy {
+    text-align: center;
+}
+
+.gopy {
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+.in-for {
+    width: 500px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.Ghi-chu {
+    max-width: 500px;
+    min-width: 500px;
+    min-height: 200px;
+    max-height: 350px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    z-index: 2;
+    display: block;
+}
+
+
+/*----- Hỏi đáp -----*/
+
+.hoi-dap {
+    width: 1200px;
+    height: 600px;
+    margin: 0 10px 0 10px;
+    display: flex;
+}
+
+.hoidap {
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+.titlehd {
+    text-align: center;
+}
